@@ -13,7 +13,9 @@ import 'package:firebase_core/firebase_core.dart';
 //   await Firebase.initializeApp().then((value) =>
 //   Get.put(AuthControl()));
 //   runApp(MyApp());
-// }
+// } 
+
+
 void main(){
   runApp(MyApp());
 }
