@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mentalhealthbot-tysh",
+  "private_key_id": "8dae7f1acb0412e57e015881ba86cb34f9027989",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCeGG8cbddxq5ER\nA7tQqlwMJUFpI7L3+8QmqnaDnvFpZlFs81SSJXwbwbdruzlk+WEwJ+nvBJQ3Rij2\nxsw5CLmZXZHDhywtng4fTwX+G/TBIolGYU26veUlXRiw1xlmD59S36F4HQ8oFaIr\nJ9xrAQR4roUCZVHuAtRxWemqipUQC1JNX335Ax/KSj4CAli0L75xSB6Psb03PVFY\n0dfd4mW5C4aLgiZNatH0yOUVikE1BBHBYHAIoOj2h/RuWewrLofNc4+6Jwj4ZfMW\naPZ/io+72qSF4dlK/xrT1I3XJfKUg+nzhWpkvF66eTZQ3J9Q9msPwapn8zXCBWjg\nwPhHEvd1AgMBAAECggEAAQG5fhOE/QhRUtZp6Z2Wxc0G7vB3QfUBzsKPIU9wd3IG\nBWJB9kb0KgkVw0Mx87P9gRz/9Fxcb+2rx8aETmir0I+JT2wbmpQYau1J5dBabVBs\nUge/QvfVRGOktfDotymqThDL1RlPm2W9M/Z7r4LA0IlBTOlFmEppp+nL/yCwH6YF\nk86aACnw0dxuMKGtbYUc8ZdrU7NtMBmd2/n1H8P0YBs09bIWI/CEUQTBpn5KRUTb\nWhR0dwydNNnu3Hhv4rw4Rvljj3RX9QyvZ+q63LvOHVZj0LW5UGh9Uqu2jnO+7KHP\ni0M1dYepCAKYI8pRd8lz/5JdLU7ixnVQMSxdHy7iAQKBgQDQfXoT/1ZpS9It67ok\njVkUqMBhgg78IEcxwD2r/I1nT8Mua9vs5u9TXcZGd7GhBsag3/xHNn3GP/5IAiFF\nRmX1O9sqhRqfEJwN1hmxz/IUo3YBiw9cKq+4LuCwMI6iETSMf527zuH3HI1r0ufy\ngUr2Fg402qLKLKlAEdN9ULc14QKBgQDCHx8xeu/+lw6GB6QuGdRVhGwvR6cdzURB\nycPAf1dcbnI4fXlXPMaVXermO7xZS2bFxoTzJOZ0a9HTBmpTKJqO+UNqakU1hhDF\nzVAEZs2ITG2+hbzMyiScaW3L9vfMmcKUaTg15vSkV8/kBQkrHGVAAG5MCmm5RsnE\nUXMGSCUMFQKBgQCDDHvxmevM39XK+4LTeu1laPUT1VZp8DgP85BQTLztFVvQEAf7\nDuWb9zOsE4xZdRLhCClg8cV5GbxRstUK4EcyMF+AiI3FMgGFSPB5rgWyJ1UDf082\nVbaCBSVCWiMth7cKISUaad3rH81c2wLkkZR2vkJLwqnUfuIb3ZicCmI+wQKBgHhu\nvHiDL+/AIbePeBFN3wjrLf8rMgfwOF+kYHjFyBpFP0HCvowb3Yv/h2MtPk4b1Hfx\nELyUcRFbbwK/4SkUcMcw591Wbvek5DUDipgge3ULDa7848QdyRbs5bx7zQK3hhtz\nJ/dxAOgQvp5VbXm8lShe3A77Ctpyi2zrpzQHgEx9AoGAPYwjoCFAVa5fMI69Xn0j\nlM8Cdfrbtber7WJ7W90NKb8AGyaGOETd/ZI7TErkA/FDJ6gKaupFUIWh5ayzlQSF\ngoFEnJnnh5ztqimgBQLb2oiz10QCA2P/Ic5xkwgQv2Z43tOC0kZnWGi4sUqa4OME\njgTPxVQYsILZWCB3B9JyAvI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chatbot@mentalhealthbot-tysh.iam.gserviceaccount.com",
+  "client_id": "116249870856618617549",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatbot%40mentalhealthbot-tysh.iam.gserviceaccount.com"
+}

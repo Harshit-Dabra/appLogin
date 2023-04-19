@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999771056090",
+    "project_id": "mental-heal-33db8",
+    "storage_bucket": "mental-heal-33db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999771056090:android:5e679500e0ed9f1ef142e3",
+        "android_client_info": {
+          "package_name": "com.mentalheal.applogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999771056090-03adpp1bf9f2hqephuu0a3ssqot1uuom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALez-OuTLOOLzUktu2FpY9LBg6thPg4_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999771056090-03adpp1bf9f2hqephuu0a3ssqot1uuom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

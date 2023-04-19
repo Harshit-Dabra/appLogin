@@ -1,0 +1,96 @@
+// ignore_for_file: unnecessary_import, unused_import, implementation_imports, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_local_variable, unused_field, must_call_super, avoid_unnecessary_containers, avoid_print
+
+import 'dart:ffi';
+
+import 'package:dialog_flowtter/dialog_flowtter.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/src/widgets/placeholder.dart';
+
+import 'Messages.dart';
+
+class Welcome extends StatelessWidget {
+  const Welcome({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+     double w=MediaQuery.of(context).size.width;
+    double h=MediaQuery.of(context).size.height;
+    return MaterialApp(
+          home: Home(),
+    );
+
+}
+}
+
+class Home extends StatefulWidget {
+  const Home({super.key});
+
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+
+  late DialogFlowtter dialogFlowtter;
+  final TextEditingController _controller= TextEditingController();
+  List<Map<String, dynamic>>messages=[];
+
+@override
+  void initState(){
+      DialogFlowtter.fromFile().then((instance) => dialogFlowtter);
+  } 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(child: MessagesScreen(messages: messages)),
+            Container(
+
+              padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              color: Colors.blueAccent,
+              child: Row(
+                children: [
+                  Expanded(
+                      child: TextField(
+                    controller: _controller,
+                    style: TextStyle(color: Colors.white),
+                  )),
+                  IconButton(
+                      onPressed: () {
+                        sendMessage(_controller.text);
+                        _controller.clear();
+                      },
+                      icon: Icon(Icons.send))
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  sendMessage(String text) async {
+    if (text.isEmpty) {
+      print('Message is empty');
+    } else {
+      setState(() {
+        addMessage(Message(text: DialogText(text: [text])), true);
+      });
+
+      DetectIntentResponse response = await dialogFlowtter.detectIntent(
+          queryInput: QueryInput(text: TextInput(text: text)));
+      if (response.message == null) return;
+      setState(() {
+        addMessage(response.message!);
+      });
+    }
+  }
+
+  addMessage(Message message, [bool isUserMessage = false]) {
+    messages.add({'message': message, 'isUserMessage': isUserMessage});
+  }
+}
